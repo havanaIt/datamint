@@ -15,3 +15,10 @@ git commit -m "Versione .... (put a simple message)"
 
 # Push
 git push origin <your branch>
+
+
+# Delete files or folder commited by error
+git rm -r --cached <directory>
+git commit -m 'Remove directory
+git push origin master
+
