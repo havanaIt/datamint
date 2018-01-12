@@ -15,6 +15,5 @@ EXPOSE 8001
 
 ENTRYPOINT [ "opam", "config", "exec", "--" ]
 
-#CMD [ "bash" ]
-CMD [ "datamint-event-logger","-k 172.18.0.3", "datamint/examples/passover/consumer.conf &"]
+CMD [ "bash" ]
 
